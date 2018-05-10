@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body class="make-flex">
+	<h2>Trivia Questions & Answers</h2>
+	<div class="container twidth make-flex">
+		<p id="question"></p>
+		<div class="optnContainer make-flex">
+			<p id="optn1" class="answer"></p>
+			<p id="optn2" class="answer"></p>
+			<p id="optn3" class="answer"></p>
+			<p id="optn4" class="answer"></p>
+			<div id="waiting"></div>
+			<div id="waitanim"></div>
+		</div>
+	</div>
+	<div class="score twidth make-flex">
+		<p id="hscore">0</p>
+		<p id="resetscore">Reset Score!</p>
+	</div>
+    <p id="skip" class="twidth">Skip Question</p>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+
+
+    
+</body>
+</html>
